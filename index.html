@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <div class="profile-img">
+        <figure>
+          <img
+            data-testid="test-user-avatar"
+            src="./image/debby.png"
+            alt="headshot image of deborah"
+          />
+        </figure>
+        <div class="profile-header">
+          <h2 data-testid="test-user-name" aria-label="name of the card owner">
+            Deborah Okolo
+          </h2>
+          <span data-testid="test-user-current-time"> Current Time(ms): </span>
+        </div>
+      </div>
+      <div class="profile-bio">
+        <p data-testid="test-user-bio">
+          Hi, I am Deborah, a frontend developer based in Nigeria. I build
+          clean, user-friendly web experiences that help businesses connect
+          better with their audiences.
+        </p>
+      </div>
+
+      <!-- Social Links -->
+      <ul data-testid="test-user-social-links" class="socail-links">
+        <li data-testid="test-user-social-linkedin">
+          <a
+            href="https://www.linkedin.com/in/deborah-okolo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./image/linkedin (1).png" alt="linkedin icon"
+          /></a>
+        </li>
+        <li data-testid="test-user-social-twitter">
+          <a
+            href="https://x.com/OkoloDeborah1?t=04mr_L4a3pU0DA0lL7DdoQ&s=09"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./image/twitter.png" alt="twitter icon"
+          /></a>
+        </li>
+        <li data-testid="test-user-social-github">
+          <a
+            href="https://github.com/Ogugwa"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./image/github.png" alt="github icon"
+          /></a>
+        </li>
+        <li data-testid="test-user-social-instagram">
+          <a
+            href="https://www.instagram.com/okolodeborah/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./image/instagram.png" alt="instagram icon"
+          /></a>
+        </li>
+      </ul>
+      <!-- Hobbies -->
+      <section class="taste-group">
+        <div class="hobbies">
+          <h3><img src="./image/hearts.png" alt="heart icon" />My Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Singing</li>
+            <li>Reading</li>
+            <li>Coding</li>
+          </ul>
+        </div>
+        <div class="dislikes">
+          <h3><img src="./image/hate.png" alt="dislike icon" />My Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Procrastination</li>
+            <li>Rudeness</li>
+            <li>Dishonesty</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+    <script src="index.js"></script>
+  </body>
+</html>
