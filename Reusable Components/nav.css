@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  width: 100%;
+  background-color: #D2B48C;
+
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-links li{
+  font-size: larger;
+}
+.nav-links a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.nav-links a:hover{
+  color: white;
+}
