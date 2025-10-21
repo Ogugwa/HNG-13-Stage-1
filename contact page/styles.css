@@ -11,9 +11,15 @@ form div{
     display: flex;
     flex-direction: column;
 }
+form button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
 /*Media Query for mobile responsiveness  */
 @media (max-width: 600px){
     form{
         width:70%
     }
 }
+
