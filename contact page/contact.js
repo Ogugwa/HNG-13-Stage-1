@@ -47,6 +47,9 @@ function checkName(){
     }else if(nameInput.value.trim().length < 3){
         nameError.textContent= "Full Name must be at least 3 characters long.";
         return false;
+    }else {
+        nameError.textContent = "";
+        return true;
     }
 }
 function checkEmail(){    
