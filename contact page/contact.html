@@ -17,6 +17,7 @@
     </nav>
     <main>
         <form data-testid="test-contact-form" method="post" autocomplete="on">
+          <h1 class="heading" data-testid="test-contact-heading">Contact Me</h1>
           <div class="fname">
              <label for="name" data-testid="test-contact-name"
             placeholder="John Doe"> Full Name:</label>
@@ -42,8 +43,7 @@
             <textarea id="message" name="message" rows="10" minlength="10" aria-describedby="message-error" required></textarea>
             <p id="message-error" data-testid="test-contact-error-message"></p>
           </div>
-          <button type="button" data-testid="test-contact-submit" id="submit-btn">Submit</button>
-
+          <button type="button" data-testid="test-contact-submit" id="submit-btn">Send Message</button>
         </form>
        <div class="error-message" id="error-message"></div>
        <div class="success-message" id="success-message" data-testid="test-contact-success-message"></div>

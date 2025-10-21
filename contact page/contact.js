@@ -26,7 +26,7 @@ messageError.style.fontSize= '14px';
 
 // Styling the success and error message containers
 successMessage.style.color= 'green';
-successMessage.style.fontSize= '16px';
+successMessage.style.fontSize= '18px';
 // errorMessage.style.color= 'red';
 // errorMessage.style.fontSize= '16px';
 

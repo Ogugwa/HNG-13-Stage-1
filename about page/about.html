@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Reusable Components/nav.css"/>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
      <nav>
@@ -16,14 +17,20 @@
     </nav>
     <main data-testid="test-about-page">
         <!-- Bio Section -->
-         <section data-testid="test-about-bio" >
+         <section data-testid="test-about-bio" class="bio-section">
             <h1>Hi, My name is Deborah but you can call me Debby.</h1>
-            <p>  Hi, I am Deborah, a frontend developer based in Nigeria. I build
-          clean, user-friendly web experiences that help businesses connect
-          better with their audiences.</p>
+            <p> A frontend developer based in Nigeria. I am the defination of persistence as I have been 
+              learning programming for a while now learnt C++ in school but had no interest.
+              I wrote my first code which was Python in 2022 but i fell when things got hard. 
+            </p>
+            <p>I picked myself up in 2023 and moved to Web development learning HTML,CSS and Javascript. Javscript seemed almost
+              incomprehensible for me. But I have persisted though I cannot proudly say I have mastered Js but that is the main reason I am here at HNG
+              to prove to  myself that I can do it.
+            </p>
          </section>
          <!-- Goals Section -->
-          <section data-testid="test-about-goals">
+          <section data-testid="test-about-goals-confidence-merged" class="goals-container">
+          <section data-testid="test-about-goals" class="goals-section">
             <h2>My Goals</h2>
             <ul>
               <li>To continuously improve my skills and stay updated with the latest technologies.</li>
@@ -32,8 +39,8 @@
             </ul>
           </section>
           <!-- Confidence Section -->
-          <section data-testid="test-about-confidence">
-            <h2>Areas I have Low confidence In:</h2>
+          <section data-testid="test-about-confidence" class="confidence-section">
+            <h2>Low confidence In:</h2>
             <ul>
               <li>Api Integration</li>
               <li>Use of Frameworks</li>  
@@ -42,8 +49,9 @@
               <li>UI/UX design</li>
             </ul>
           </section>
+          </section>
           <!-- Note to future self -->
-           <section data-testid="test-about-future-note">
+           <section data-testid="test-about-future-note"class="future-note-section">
             <h2>Note to Future Self</h2>
             <p>Hi, Debby. I know you will read this someday and I am glad you finally became the developer you always dreamed of,
                 the chance to earn more and gain true financial freedom. Building a path to being self-sufficient and making a change
@@ -52,7 +60,7 @@
             </p>
 
            </section>
-           <section data-testid="test-about-extra">
+           <section data-testid="test-about-extra" class="extra">
             <h2>Extra Thoughts</h2>
             <p>I hope your portfolio continues to grow and showcase your skills effectively.</p>
     </main>
