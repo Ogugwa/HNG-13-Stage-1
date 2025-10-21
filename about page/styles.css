@@ -88,4 +88,7 @@ main{
     .extra p {
         font-size: 14px;
     }
+    .goals-container {
+        grid-template-columns: 1fr;
+    }
 }
