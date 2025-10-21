@@ -1,6 +1,6 @@
 # This is the Second Task for HNG 13 Internship program
 
-## This is a continuation of the firrst stage task 
+## This is a continuation of the first stage task 
 
 ### It has the additon of an About page and a Contact me form
 
